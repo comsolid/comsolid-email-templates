@@ -1,0 +1,46 @@
+<mjml>
+
+  <mj-head>
+
+    <mj-attributes>
+      <mj-text font-size="18px" color="#333" />
+      <mj-container background-color="#eee" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body>
+    <mj-container>
+
+      <mj-include path="./header.mjml" />
+
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-text>
+          	<h2>Olá, {nome}</h2>
+            <p>
+              Seu cadastro foi efetuado com sucesso no {encontro}.
+            </p>
+        	</mj-text>
+          <mj-image width="580"
+                    src="http://placehold.it/580x300"></mj-image>
+          <mj-text>
+            <p>
+            	Clique no botão abaixo para fazer login.
+          	</p>
+          </mj-text>
+          <mj-button background-color="#5da423"
+                     font-size="22px"
+                     href="{href_link}">
+            Entrar
+          </mj-button>
+        </mj-column>
+
+      </mj-section>
+
+      <mj-include path="./footer.mjml" />
+
+    </mj-container>
+  </mj-body>
+
+</mjml>

@@ -1,0 +1,9 @@
+<mj-section>
+
+  <mj-column background-color="#3C8DBC">
+    <mj-image align="left"
+              width="200"
+              src="http://placehold.it/200x50"></mj-image>
+  </mj-column>
+
+</mj-section>
