@@ -11,7 +11,6 @@
 
   <mj-body>
     <mj-container>
-
       <mj-include path="./header.mjml" />
 
       <mj-section background-color="#fff">
@@ -25,22 +24,30 @@
           <mj-image width="580"
                     src="http://placehold.it/580x300"></mj-image>
           <mj-text>
+            <h2>Dados do Cadastro</h2>
+          </mj-text>
+          <mj-divider padding="0px 25px"
+                      border-width="1px"
+                      border-color="#ddd"></mj-divider>
+          <mj-text>
             <p>
-            	Clique no botão abaixo para fazer login.
+              Seu login é <strong>{email}</strong>.
+            </p>
+            <p>
+            	Clique no botão abaixo para definir sua senha
+              e ativar seu cadastro.
           	</p>
           </mj-text>
           <mj-button background-color="#5da423"
                      font-size="24px"
                      href="{href_link}">
-            Entrar
+            Ativar Agora
           </mj-button>
         </mj-column>
 
       </mj-section>
 
       <mj-include path="./footer.mjml" />
-
     </mj-container>
   </mj-body>
-
 </mjml>

@@ -11,7 +11,7 @@
       Facebook
     </mj-button>
     <mj-button width="100%"
-               background-color="#00acee"
+               background-color="#3498DB"
                font-size="16px"
                href="https://twitter.com/comsolid">
       Twitter
