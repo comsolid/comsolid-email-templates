@@ -1,0 +1,25 @@
+{
+  "name": "comsolid-email-templates",
+  "version": "1.0.0",
+  "description": "Usando ferramenta de criação de e-mails responsivos [mjml](https://mjml.io/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comsolid/comsolid-email-templates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comsolid/comsolid-email-templates/issues"
+  },
+  "homepage": "https://github.com/comsolid/comsolid-email-templates#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "mjml": "^4.2.0-beta.2"
+  }
+}
