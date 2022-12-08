@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/comsolid/comsolid-email-templates#readme",
   "devDependencies": {
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "mjml": "^4.2.0-beta.2"
   }
 }
